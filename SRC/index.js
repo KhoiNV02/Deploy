@@ -49,7 +49,7 @@ db.connect();
 app.use(express.urlencoded({
   extended:true
  }));
- app.locals.local = 'http://localhost:3000';
+ app.locals.local = 'https://shoppingcart1.onrender.com';
 //  app.use(express.json);
 route(app);
 
